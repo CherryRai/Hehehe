@@ -3,7 +3,7 @@
     padding: 0 50vh;
 }
 body {
-  background-image: url('background1.png'); /* path to your image */
+  background-image: url('background2.png'); /* path to your image */
   background-size: cover;       /* makes image cover the whole screen */
   background-repeat: no-repeat; /* prevents tiling */
   background-position: center;  /* centers the image */
@@ -30,3 +30,7 @@ h1 {
     font-style: normal;
      cursor: pointer;
 }
+ .fun button:hover {
+      background-color: #fb87a2; /* darker green */
+      transform: scale(1.05); /* slightly bigger */
+    }
